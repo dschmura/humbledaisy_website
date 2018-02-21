@@ -15,6 +15,3 @@
 
   # Run before production deploy.
   # NODE_ENV=production bundle exec rails webpacker:compile
-
-  /humbledaisy_website
-
