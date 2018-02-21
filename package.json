@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.2.2",
+    "ajv": "^6.1.1",
     "babili": "^0.1.4",
     "bootstrap": "^4.0.0",
     "bourbon": "^5.0.0",
