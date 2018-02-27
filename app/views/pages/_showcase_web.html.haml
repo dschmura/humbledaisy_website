@@ -1,0 +1,17 @@
+%section.showcase-section#showcase-web
+  .space-90
+  .container
+    .row.align-items-center
+      .col-md-5.margin-b-30
+        %h3
+          Web Apps
+        %p SonicPics is a very easy to use tool for turning your images into custom slideshow movies that you can share with your friends online! SonicPics lets you add images from your iPhone's photo library or camera, arrange your photos, and then narrate the project to create an enhanced m4v video (complete with chapters).
+        %p Take photos of your kids, special events, weddings, vacations, the new pet, or first day at camp and narrate them with SonicPics!
+        .row
+          .col-md-6
+            = link_to('Learn More', 'http://www.humbledaisy.com', target: '_blank', class: ' btn btn-lg btn-primary btn-rounded')
+
+      .col-md-6.offset-md-1.margin-b-30
+        = link_to image_tag(asset_pack_path('humbledaisy_website/images/img/shot1.png'), alt: 'Digital Dashboard', class: 'img-fluid center-img'), root_path
+    .space-60
+/ end showcase section
