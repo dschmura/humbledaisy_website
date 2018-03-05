@@ -14,4 +14,4 @@
   Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
 
   # Run before production deploy.
-  # NODE_ENV=production bundle exec rails webpacker:compile
+  # RAILS_ENV=production bundle exec rails webpacker:compile
