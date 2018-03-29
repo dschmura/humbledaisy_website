@@ -21,7 +21,8 @@
   set :puma_worker_timeout, nil
   set :puma_init_active_record, true  # Change to false when not using ActiveRecord
   set :nginx_sites_enabled_path, "/etc/nginx/sites-enabled"
-
+  set :default_env, { 'NODE_ENV' => 'production' }
+  set :linked_dirs, fetch(:linked_dirs, []).push('public/packs', 'node_modules')
   namespace :puma do
     desc 'Create Directories for Puma Pids and Socket'
     task :make_dirs do
@@ -113,7 +114,5 @@
   ## Linked Files & Directories (Default None):
 
   set :linked_files, %w{config/puma.rb config/master.key}
-  set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+  set :linked_dirs,  %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
   set :linked_dirs, fetch(:linked_dirs, []).push('public/packs', 'node_modules')
-
-
