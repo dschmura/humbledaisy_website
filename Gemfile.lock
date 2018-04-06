@@ -289,7 +289,7 @@ DEPENDENCIES
   pry
   pry-rails
   puma (~> 3.11)
-  rails (~> 5.2.0.rc1)
+  rails (~> 5.2.0.rc2)
   rspec-rails (~> 3.5.0)
   selenium-webdriver
   shoulda-matchers
@@ -301,7 +301,7 @@ DEPENDENCIES
   webpacker!
 
 RUBY VERSION
-   ruby 2.5.0p0
+   ruby 2.5.1p57
 
 BUNDLED WITH
-   1.15.0
+   1.16.1
