@@ -1,0 +1,18 @@
+/*
+Dropdown style
+*/
+
+$skin-color: blue;
+$title-font: sans;
+
+.dropdown-menu{
+    min-width:200px;
+    padding:10px;
+    >li>a{
+        text-transform: capitalize;
+        font-family: $title-font;
+        font-weight: 400;
+        padding: 8px 20px;
+            font-size: .85rem;
+    }
+}
