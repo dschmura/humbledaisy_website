@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get '/privacy', to: 'pages#privacy'
   get '/contact', to: 'pages#contact'
   get '/about', to: 'pages#about'
+  get '/about_our_name', to: 'pages#about_our_name'
   root to: 'pages#index'
   get 'pages/index'
   get 'pages/about'
