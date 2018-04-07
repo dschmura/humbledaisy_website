@@ -1,6 +1,5 @@
-$skin-color: blue;
-$title-font: sans;
-$skin-dark: grey;
+@import '_variables';
+@import '_mixins';
 
 @media(min-width:992px){
     .navbar-toggleable-md,.navbar-toggleable-sm,.navbar-toggleable-lg{
@@ -37,6 +36,7 @@ $skin-dark: grey;
     border: 0px;
     padding: 15px 0;
     margin: 0px;
+    @include transition(all 0.3s);
     .search-nav a{
         color: #fff;
     }
@@ -64,6 +64,7 @@ $skin-dark: grey;
     &.shrink{
         background-color:#fff;
         padding:.5rem 0;
+        @include box-shadow(0px 0px 12px rgba(0,0,0,0.1));
         .search-nav a{
             color: #333;
         }

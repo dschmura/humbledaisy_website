@@ -1,8 +1,8 @@
 /*
 Blog Styles
 */
-$skin-color: blue;
-$title-font: sans;
+@import '_variables';
+@import '_mixins';
 
 .post{
     background: #fff;

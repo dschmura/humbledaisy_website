@@ -1,7 +1,9 @@
+@import '_variables';
+@import '_mixins';
+
 /*
 Testimonials
 */
-
 .skin-bg{
     .center-title{
         h2,p{
@@ -17,7 +19,7 @@ Testimonials
     background: #fff;
     padding:20px;
     margin-bottom: 20px;
-
+    @include border-radius(3px);
     &:after {
         top: 100%;
         left: 30px;

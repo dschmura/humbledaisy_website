@@ -1,9 +1,8 @@
 /*
 Bootstrap collapsed
 */
-$skin-color: blue;
-$title-font: sans;
-$skin-dark: grey;
+@import '_variables';
+@import '_mixins';
 
 .card{
     .card-header{
@@ -15,7 +14,7 @@ $skin-dark: grey;
             position: relative;
             padding: 10px 15px;
             color:#fff;
-            background-color: $skin-color;
+            background-color:$skin-color;
             &:after{
                    content: "\f2d7";
                 display: inline-block;

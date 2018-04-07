@@ -1,9 +1,8 @@
+@import '_variables';
+@import '_mixins';
 /*
 Dropdown style
 */
-
-$skin-color: blue;
-$title-font: sans;
 
 .dropdown-menu{
     min-width:200px;

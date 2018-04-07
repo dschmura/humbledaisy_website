@@ -1,11 +1,9 @@
+@import '_variables';
+@import '_mixins';
+
 /*
 Features tabs style
 */
-
-$skin-color: blue;
-$title-font: sans;
-$skin-dark: grey;
-
 
 .features-tabs{
     border-bottom: 2px solid #eee;

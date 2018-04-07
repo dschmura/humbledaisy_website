@@ -1,8 +1,10 @@
+@import '_variables';
+@import '_mixins';
+
+
 /*
 Sign in, SignUp, Error 404, coming soon style
 */
-$skin-color: blue;
-$title-font: sans;
 
 body.page-misc{
     background: $skin-color;
@@ -12,7 +14,7 @@ body.page-misc{
 }
 .misc-box{
     background-color: #fff;
-
+    @include border-radius(5px);
     border-top:5px solid rgba(0,0,0,0.1);
         padding: 25px 50px 25px 50px;
     margin-bottom:20px;

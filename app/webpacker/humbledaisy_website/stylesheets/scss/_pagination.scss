@@ -1,8 +1,9 @@
+@import '_variables';
+@import '_mixins';
+
 /*
 Pagination styles
 */
-$skin-color: blue;
-$title-font: sans;
 
 .pagination>li>a, .pagination>li>span{
     color: $skin-color;

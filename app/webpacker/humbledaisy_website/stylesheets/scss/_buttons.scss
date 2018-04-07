@@ -1,16 +1,19 @@
 /*
 Buttons
 */
-$skin-color: blue;
-$title-font: sans;
-$skin-dark: grey;
+
+@import '_variables';
+@import '_mixins';
 
 .btn{
+   @include border-radius(2px);
    text-transform: uppercase;
    border: 0px;
    font-size:13px;
    font-weight:500;
+   @include transition(all 0.3s);
    &.btn-rounded{
+      @include border-radius(100px);
       padding: 12px 35px;
    }
 }

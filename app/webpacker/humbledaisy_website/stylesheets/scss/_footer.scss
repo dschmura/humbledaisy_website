@@ -1,6 +1,7 @@
+@import '_variables';
+@import '_mixins';
+
 /**footer style **/
-$skin-color: blue;
-$title-font: sans;
 .footer{
     background: #333;
     color: #fff;
@@ -21,7 +22,7 @@ $title-font: sans;
     .navbar-form{
     padding-left:0px;
     padding-right:0px;
-
+    @include box-shadow(none);
     border:0px;
     .form-control{
         width: 270px;
