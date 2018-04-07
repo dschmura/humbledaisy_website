@@ -18,7 +18,7 @@ body{
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color:#666;
+    color: #666;
 }
 
 a,button{
@@ -28,10 +28,10 @@ a,button{
 a{
     color:$skin-color;
     &:hover{
-        color:  #aeaeae;
+        color: #aeaeae;
     }
 }
-a,a:hover,a:focus,button:hover, button:focus{
+a, a:hover, a:focus, button:hover, button:focus{
     outline: 0 !important;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ button:focus{
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    font-family: $title-font;color:#333;font-weight:300; }
+    font-family: $title-font;color: #333;font-weight:300; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-weight: inherit; }
@@ -194,7 +194,7 @@ label{
     @include border-radius(0px);
     @include box-shadow(none);
     border: 1px solid #eee;
-    background-color:#fefefe;
+    background-color: #fefefe;
     min-height:41px;
     &:focus{
         @include box-shadow(none);
@@ -272,7 +272,7 @@ label{
     left:0;
     right:0;
     bottom:0;
-    background-color:#fff;
+    background-color: #fff;
     z-index:99999;
 }
 #preloader-inner{
@@ -357,7 +357,7 @@ label{
 }
 @media(min-width:1200px){
     body.boxed-layout{
-        background-color:#f5f5f5;
+        background-color: #f5f5f5;
         .wrapper-boxed{
             width:1200px;
             background-color: #fff;

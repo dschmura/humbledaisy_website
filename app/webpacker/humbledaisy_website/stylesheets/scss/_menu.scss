@@ -1,7 +1,7 @@
 @import '_variables';
 @import '_mixins';
 
-@media(min-width:992px){
+@media(min-width: 992px){
     .navbar-toggleable-md,.navbar-toggleable-sm,.navbar-toggleable-lg{
         flex-direction:  column;
         -webkit-flex-direction:  column;
