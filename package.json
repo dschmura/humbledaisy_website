@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-free-regular": "^5.0.9",
     "@fortawesome/fontawesome-free-solid": "^5.0.9",
     "@rails/webpacker": "^3.3.1",
-    "ajv": "^6.1.1",
+    "ajv": "^6.12.3",
     "babel-preset-babili": "^0.1.4",
     "babili": "^0.1.4",
     "bootstrap": "^4.0.0",
